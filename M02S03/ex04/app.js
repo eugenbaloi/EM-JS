@@ -14,4 +14,7 @@ if (paragraph) {
 
 imageElement.addEventListener('load', () => {
   showMessage('Imaginea s-a incarcat.');
+imageElement.addEventListener('click', (evt) => {
+  alert(`the image in the URL ${evt.target.src}has loaded.`);
+});
 });
