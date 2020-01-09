@@ -5,6 +5,7 @@ export class Home extends Component {
     return (
       <div>
         Hello Kitty {this.props.name}!
+        
       </div>
     );
   }
